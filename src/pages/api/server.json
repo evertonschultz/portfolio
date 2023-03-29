@@ -1,0 +1,145 @@
+{
+  "repos":
+    {
+      "node_js": [
+        {
+          "id": "54905478822",
+          "cover_url": "https://i.ibb.co/kSL1Ycw/notification-service.png",
+          "html_url": "https://github.com/evertonschultz/ignite-lab-nodejs",
+          "description": "Aplicação em node.js com a finalidade de criar uma aplicação escalável, bem arquitetada, testável e de simples manutenção para o controle de notificações.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "54905478821",
+          "cover_url": "https://i.ibb.co/XCJxcKt/soypest.png",
+          "html_url": "https://github.com/evertonschultz/PestControllInSoy",
+          "description": "Aplicação com o objetivo de auxiliar os agricultores que produzem soja, para que fosse possível realizar um controle mais rápido das pragas que estão atingindo sua lavoura.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "54905478820",
+          "cover_url": "https://i.ibb.co/Ybzf4kN/voguia.png",
+          "html_url": "https://github.com/evertonschultz/voguia",
+          "description": "Aplicação que entrega um guia de locais para o público idoso de acordo com as necessidades do usuário, com filtros, rotas, avaliação e instruções de acesso.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "54905478823",
+          "cover_url": "https://i.ibb.co/ph4C3cz/habits.png",
+          "html_url": "https://github.com/evertonschultz/habits",
+          "description": "Aplicação FullStack (web, mobile, server) com a finalidade de criar hábitos. Para seu desenvolvimento foi implementado login social, notificação push e perfil público.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "54905478834",
+          "cover_url": "https://i.ibb.co/ZWfSpmQ/nlw-copa.png",
+          "html_url": "https://github.com/evertonschultz/nlw-copa",
+          "description": "Aplicação FullStack (web, mobile, server) com a finalidade de realizar bolões para os jogos da Copa. Desenvolvido com autenticação, fastify, prisma, tailwindcss e native-base.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "54905478845",
+          "cover_url": "https://i.ibb.co/12MyFpb/nlw-esports.png",
+          "html_url": "https://github.com/evertonschultz/nlw-esports-server",
+          "description": "Aplicação FullStack (web, mobile, server) com a finalidade de conectar pessoas para jogarem juntas. Algumas bibliotecas utilizadas foram: axios, phosphor-react, autoprefixer, postcss, tailwindcss e prisma.",
+          "language": "TypeScript"
+        }
+      ],
+      "react_native": [
+        {
+          "id": "5490547880",
+          "cover_url": "https://i.ibb.co/Ybzf4kN/voguia.png",
+          "html_url": "https://github.com/evertonschultz/voguia",
+          "description": "Aplicação que entrega um guia de locais para o público idoso de acordo com as necessidades do usuário, com filtros, rotas, avaliação e instruções de acesso.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "5490547881",
+          "cover_url": "https://i.ibb.co/2NM4phS/go-finances.png",
+          "html_url": "https://github.com/evertonschultz/gofinances",
+          "description": "Aplicação mobile para fazer o controle de entradas e saídas, ou seja, gastos e ganhos financeiros. Assim como possui login social e gráfico de resumo de cada mês.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "5490547882",
+          "cover_url": "https://i.ibb.co/ph4C3cz/habits.png",
+          "html_url": "https://github.com/evertonschultz/habits",
+          "description": "Aplicação FullStack (web, mobile, server) com a finalidade de criar hábitos. Para seu desenvolvimento foi implementado login social, notificação push e perfil público.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "5490547883",
+          "cover_url": "https://i.ibb.co/ZWfSpmQ/nlw-copa.png",
+          "html_url": "https://github.com/evertonschultz/nlw-copa",
+          "description": "Aplicação FullStack (web, mobile, server) com a finalidade de realizar bolões para os jogos da Copa. Desenvolvido com autenticação, fastify, prisma, tailwindcss e native-base.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "5490547884",
+          "cover_url": "https://i.ibb.co/12MyFpb/nlw-esports.png",
+          "html_url": "https://github.com/evertonschultz/nlw-esports-mobile",
+          "description": "Aplicação FullStack (web, mobile, server) com a finalidade de conectar pessoas para jogarem juntas. Algumas bibliotecas utilizadas foram: axios, phosphor-react, autoprefixer, postcss, tailwindcss e prisma.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "5490547885",
+          "cover_url": "https://i.ibb.co/pnY5sTM/RentX.png",
+          "html_url": "https://github.com/evertonschultz/rentx",
+          "description": "A aplicação visa tornar o aluguel de carros descomplicado, no qual o usuário de forma fácil consegue escolher seu veículo, período do aluguel e já na mesma hora realizar o aluguel.",
+          "language": "TypeScript"
+        }
+      ],
+      "react_js": [
+        {
+          "id": "549054788",
+          "cover_url": "https://i.ibb.co/MRDJWCL/coffee-delivery.png",
+          "html_url": "https://github.com/evertonschultz/02-desafio-coffee-delivery",
+          "description": "Aplicação Vite.js para praticar conceitos como: Estados; ContextAPI; LocalStorage; Imutabilidade do estado; Listas e chaves no ReactJS; Propriedades; Componentização.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "549916907",
+          "cover_url": "https://i.ibb.co/D7JX9Tc/dt-money.png",
+          "html_url": "https://github.com/evertonschultz/03-dt-money",
+          "description": "Aplicação Vite.js completa e responsiva, conectando a uma API json-server e aplicando técnicas de performance em aplicações com o React.",
+          "language": "TypeScript"
+        },
+    
+        {
+          "id": "550461383",
+          "cover_url": "https://i.ibb.co/jHGk5kj/github-blog.png",
+          "html_url": "https://github.com/evertonschultz/03-desafio-github-blog",
+          "description": "Aplicação Vite.js que utiliza clientes HTTP consumindo a API do Github para criar um blog pessoal com as issues do repositório. Compativel com dispositivos mobile",
+          "language": "TypeScript"
+        },
+        {
+          "id": "606851161",
+          "cover_url": "https://i.ibb.co/pzcTzkm/ignews.png",
+          "html_url": "https://github.com/evertonschultz/ignews",
+          "description": "Aplicação Next.js que utiliza login social com GitHub, carrega issues do repositório, valida a subsription do usuário e permite a realização de uma subscription por meio so stripe.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "586383746",
+          "cover_url": "https://i.ibb.co/nCCrRQB/ignite-call.png",
+          "html_url": "https://github.com/evertonschultz/06-ignite-call",
+          "description": "Aplicação em NextJS que se conecta o Google Agenda dos usuários para criar agendamentos notificados entre usuários, já criando uma sala no Google Meet.",
+          "language": "TypeScript"
+        },
+        {
+          "id": "556001596",
+          "cover_url": "https://i.ibb.co/9hXP01F/ignite-shop.png",
+          "html_url": "https://github.com/evertonschultz/04-ignite-shop",
+          "description": "Projeto desenvolvido com o framework Next.js. Utilizando StitchesJS, conceitos de SPA, server-side rendering (SSR) e static-site generation (SSG).",
+          "language": "TypeScript"
+        },
+        {
+          "id": "560143289",
+          "cover_url": "https://i.ibb.co/fDcSC7q/ignite-timer.png",
+          "html_url": "https://github.com/evertonschultz/02-ignite-timer",
+          "description": "Aplicação completa em Vite.js com roteamento e diversos conceitos do ecossistema React como ContextAPI, useReducer, immer e muito mais.",
+          "language": "TypeScript"
+        }
+      ]
+    }
+}

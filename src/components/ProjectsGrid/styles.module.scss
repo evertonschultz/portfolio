@@ -1,0 +1,106 @@
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(33%, auto));
+  width: var(--max-width);
+  max-width: 100%;
+  gap: 0.5rem;
+}
+
+.card {
+  width: 100%;
+  padding: 1rem;
+  border-radius: 4px;
+  background: rgba(var(--card-rgb), 0);
+  border: 1px solid rgba(255, 255, 255, 0);
+
+  > img {
+    width: 100%;
+    height: auto;
+    border-radius: 4px 4px 0 0;
+  }
+
+  > p {
+    margin: 0;
+    opacity: 0.6;
+    font-size: 0.9rem;
+    line-height: 1.5;
+    max-width: 100%;
+    margin-bottom: 0.5rem;
+  }
+
+  > div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+    > span {
+      font-size: 0.85rem;
+      opacity: 0.8;
+      color: var(--cyan-500);
+    }
+
+    > strong {
+      font-size: 0.85rem;
+      color: var(--gray-700);
+    }
+  }  
+}
+
+.gradient {
+  position: relative;
+  margin-top: -25px;
+  height: 40px;
+  border: 0;
+  background: linear-gradient(0deg, rgba(18,20,20, 0.9) 20%, rgba(255,255,255,0) 100%);
+}
+
+/* Enable hover only on non-touch devices */
+@media (hover: hover) and (pointer: fine) {
+  .card:hover {
+    border: 1px solid #61DCFB;
+  }
+
+  .card:hover strong {
+    color: var(--gray-100);
+  }
+}
+
+/* Mobile */
+@media (max-width: 700px) {
+  .contentContainer {
+    width: 100%;
+    padding: 0 1rem;
+    
+    margin-bottom: 2rem;
+  }
+
+  .techs {
+    gap: 0.5rem;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin-bottom: 120px;
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .card {
+    padding: 1rem 0.5rem;
+ 
+    > p {
+      text-align: start;
+    }
+
+    > div strong {
+      color: var(--gray-100);
+    }
+  }
+}
+
+/* Tablet and Smaller Desktop */
+@media (min-width: 701px) and (max-width: 1120px) {
+  .grid {
+    grid-template-columns: repeat(2, 50%);
+  }
+}
