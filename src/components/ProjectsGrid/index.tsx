@@ -29,8 +29,9 @@ export function ProjectsGrid({repos}: RepoProps) {
             <Image
               src={repo.cover_url}
               alt={repo.description}
-              width={200}
-              height={180}
+              width={315}
+              height={222}
+              priority
             />
 
             <div className={styles.gradient} />
