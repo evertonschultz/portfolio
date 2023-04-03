@@ -11,7 +11,6 @@
   flex-direction: column;
   width: 100%;
   padding: 1rem;
-  gap: 1rem;
   border-radius: 4px;
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(255, 255, 255, 0);
@@ -25,10 +24,12 @@
     }
 
     > p {
+      margin: 0;
       opacity: 0.6;
       font-size: 0.9rem;
       line-height: 1.5;
       max-width: 100%;
+      margin-bottom: 0.5rem;
     }
   }
 }
@@ -91,8 +92,10 @@
   .card {
     padding: 1rem 0.5rem;
  
-    > p {
-      text-align: start;
+    > div{
+      > p {
+        text-align: start;
+      }
     }
 
     > div strong {
