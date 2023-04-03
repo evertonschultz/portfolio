@@ -7,43 +7,46 @@
 }
 
 .card {
+  display: flex;
+  flex-direction: column;
   width: 100%;
   padding: 1rem;
+  gap: 1rem;
   border-radius: 4px;
   background: rgba(var(--card-rgb), 0);
   border: 1px solid rgba(255, 255, 255, 0);
-
-  > img {
-    width: 100%;
-    height: auto;
-    border-radius: 4px 4px 0 0;
-  }
-
-  > p {
-    margin: 0;
-    opacity: 0.6;
-    font-size: 0.9rem;
-    line-height: 1.5;
-    max-width: 100%;
-    margin-bottom: 0.5rem;
-  }
+  justify-content: space-between;
 
   > div {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
-    > span {
-      font-size: 0.85rem;
-      opacity: 0.8;
-      color: var(--cyan-500);
+    > img {
+      width: 100%;
+      height: auto;
+      border-radius: 4px 4px 0 0;
     }
 
-    > strong {
-      font-size: 0.85rem;
-      color: var(--gray-700);
+    > p {
+      opacity: 0.6;
+      font-size: 0.9rem;
+      line-height: 1.5;
+      max-width: 100%;
     }
-  }  
+  }
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  
+  > span {
+    font-size: 0.85rem;
+    opacity: 0.8;
+    color: var(--cyan-500);
+  }
+
+  > strong {
+    font-size: 0.85rem;
+    color: var(--gray-700);
+  }
 }
 
 .gradient {

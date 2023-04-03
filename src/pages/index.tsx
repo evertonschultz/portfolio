@@ -52,8 +52,8 @@ export default function Home({repos}: ReposProps) {
   return (
     <>
       <Head>
-        <title>MY - WEBSITE</title>
-        <meta name="description" content="my website" />
+        <title>PORTFOLIO - EVERTON SCHULTZ</title>
+        <meta name="description" content="Portfolio de Everton Schultz" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
@@ -62,7 +62,7 @@ export default function Home({repos}: ReposProps) {
         <div className={styles.content}>
           <section className={styles.hero}>
             <span>👏 Hey, welcome</span>
-            <h1>My website with <span>React</span> projects.</h1>
+            <h1>My portfolio with <span>React</span> projects.</h1>
             <p>
               There are more than 50 projects on GitHub <br />
               <span>See some of them here</span>
@@ -89,16 +89,14 @@ export default function Home({repos}: ReposProps) {
         </div>
 
         <ProjectsGrid repos={repoShow} />
-        
       </main>
-      <footer className={styles.footer}>
-        <strong>Éverton Schultz - DEV FULLSTACK - React</strong>
-      </footer>
+      <Footer />
     </>
   )
 }
 
 import server from '@/pages/api/server.json'
+import Footer from '@/components/Footer'
 
 export const getStaticProps: GetStaticProps = async () => {
   const { repos } = server

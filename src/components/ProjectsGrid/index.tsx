@@ -26,20 +26,23 @@ export function ProjectsGrid({repos}: RepoProps) {
             className={styles.card}
             target="_blank"
           >
-            <Image
-              src={repo.cover_url}
-              alt={repo.description}
-              width={315}
-              height={222}
-              priority
-            />
-
-            <div className={styles.gradient} />
-
-            <p>
-              {repo.description}
-            </p>
             <div>
+              <Image
+                src={repo.cover_url}
+                alt={repo.description}
+                width={315}
+                height={222}
+                priority
+              />
+
+              <div className={styles.gradient} />
+
+              <p>
+                {repo.description}
+              </p>
+            </div>
+            
+            <div className={styles.footer}>
               <span>{repo.language}</span>
               <strong>Open on GitHub</strong>
             </div>
